@@ -1,0 +1,3 @@
+/home/dimadruzev/progs/cpp/NumericalMethods/first3kurs/inversMatrixByGauss/build/CMakeFiles/rebuild_cache.dir
+/home/dimadruzev/progs/cpp/NumericalMethods/first3kurs/inversMatrixByGauss/build/CMakeFiles/edit_cache.dir
+/home/dimadruzev/progs/cpp/NumericalMethods/first3kurs/inversMatrixByGauss/build/CMakeFiles/out.dir
