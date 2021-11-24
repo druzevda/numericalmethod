@@ -5,4 +5,4 @@ all:
 	g++ main.o Matrix.o Vector.o -o exefile
 	rm *.o
 	./exefile
-
+	rm exefile

@@ -1,3 +1,8 @@
+CC=g++
+FLAGS=-Wall -Wextra -Werror -O3 -std=c++17 -pedantic -pedantic-errors
+SRC=main.cpp
+EXE=a.out
 all:
-	g++ -Wall -Werror -O2 -std=c++17 main.cpp -o exefile
-	./exefile
+	$(CC) $(FLAGS) $(SRC) -o $(EXE)
+	./$(EXE)
+	rm $(EXE)

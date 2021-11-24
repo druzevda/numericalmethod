@@ -1,3 +1,4 @@
+#include <cassert>
 #include <cmath>
 #include <functional>
 #include <iomanip>
@@ -107,12 +108,13 @@ double test(double** A, double** B, int size) {
     return delta;
 }
 int main() {
+    assert(0 && "TODO: all");
     std::cout << std::setprecision(6);
     const int size = 3;
     double** a     = getMemoryMatrix(size);
 
     setRandom(a, size);
-    // testValues(a, b);
+//    testValues(a, b);
 
     print(a, size);
 
