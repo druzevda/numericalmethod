@@ -43,9 +43,10 @@ int main() {
     double reskp     = 0.0;
     do {
         std::cout << "a = " << a << " b =  " << b << std::endl;
+
         resk  = reskp;
         reskp = integralWithEps(a, b, eps, func);
         b += 1.0;
-        std::cout << "\t\tint = " << std::setw(10) << reskp << b << std::endl;
+        std::cout << "\t\tint = " << std::setw(10) << reskp << std::endl;
     } while (std::abs(resk - reskp) > eps);
 }
